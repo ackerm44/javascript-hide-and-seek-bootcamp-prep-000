@@ -18,7 +18,7 @@ function deepestChild() {
   var div = grand.children[0];
 
   for (var i = 0; i < 3; i++) {
-    div = div.children[0];
+    div[i] = div.children[0];
   }
 
    return div;
