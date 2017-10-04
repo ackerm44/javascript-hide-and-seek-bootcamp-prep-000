@@ -19,7 +19,7 @@ function deepestChild() {
 
   while (i < 3) {
     div = div.children[0];
-    i++; 
+    i++;
   }
 
    return div;
